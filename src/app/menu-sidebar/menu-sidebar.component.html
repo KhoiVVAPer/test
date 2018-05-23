@@ -1,0 +1,14 @@
+<div class="avata-section">
+  <p>{{ appName }}</p>
+  <img [src]="avata">
+</div>
+<div class="menu">
+  <ul>
+    <li *ngFor="let item of menus">
+      <a href="#">
+        <img [src] = "item.imgSrcString">
+        <span>{{ item.name }}</span>
+      </a>
+    </li>
+  </ul>
+</div>

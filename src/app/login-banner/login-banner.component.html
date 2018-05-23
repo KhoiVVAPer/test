@@ -1,0 +1,14 @@
+<div class="content"> 
+  <h1>PHŨI</h1>
+  <div class="slogan">  
+    <p><span>You</span>SET</p>
+    <p><span>Can</span>A MATCH</p>
+  </div>
+  <div class="images-container">
+    <div class="images">   
+      <ng-container *ngFor = 'let image of images'>
+        <img [src]= 'image.src' [class] = 'image.name'>
+      </ng-container>
+    </div>
+  </div>
+</div>

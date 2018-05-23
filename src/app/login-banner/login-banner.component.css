@@ -1,0 +1,84 @@
+:host{
+    background: #333;
+    color: white;
+    font-family: Roboto;
+    flex-grow: 2;
+}
+.content{
+    height: 100%;
+    position: relative;
+}
+
+.content img,.content h1{
+    position: absolute;
+}
+.content h1{
+    display: block;
+    font-weight: normal;
+    top: 5%;
+    left: 6%;
+    letter-spacing: 10px;
+    font-size: 20px;
+}
+.slogan{
+    position: absolute;
+    top: 14%;
+    left: 18%;
+}
+.slogan p {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Archivo Black', sans-serif;
+}
+.slogan p span {
+    font-weight: normal;
+    font-style: normal;
+    padding-right: 10px;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 2px;
+}
+.images-container{
+    position: absolute;
+    bottom: 0;
+    height: 76%;
+    width: 100%;
+    left: 0;
+}
+.images{
+    position: relative;
+    width: 500px;
+    height: 100%;
+    margin: auto;
+}
+img.football {    
+    top: 29%;
+    left: 10%;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+img.match {
+    position: absolute;
+    top: 45%;
+    right: 0;
+    -webkit-transform: rotate(-20deg) scale(0.6);
+    transform: rotate(-20deg) scale(0.6);
+}
+img.team {
+    top: 16%;
+    left: 2%;
+    -webkit-transform: rotate(-20deg) scale(0.45);
+    transform: rotate(-20deg) scale(0.45);
+}
+img.pitch{    
+    top: 15%;
+    right: 16%;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+img.schedule{
+    top: 70%;
+    right: 21%;
+    -webkit-transform: rotate(30deg) scale(0.45);
+    transform: rotate(30deg) scale(0.45);
+}

@@ -1,0 +1,51 @@
+:host{
+    width: 650px;
+}
+.content{
+    height: 100%;
+    position: relative;
+}
+.input{
+    position: absolute;
+    top: 26%;
+    font-family: 'Roboto';
+}
+.email, .password {
+    width: 650px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+.email p, .password p {
+    display: inline-block;
+    width: 130px;
+    text-align: left;
+}
+input[type="email"], input[type="password"] {
+    font-size: 17px;
+    padding: 9px 11px;
+    width: 300px;
+    border: none;
+    background: whitesmoke;
+}
+.action {
+    position: absolute;
+    bottom: 110px;
+    right: 100px;
+}
+button{
+
+    border: none;
+    width: 100px;
+    height: 41px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+button#register {    
+    background: #e2dede;
+    color: #8e8a8a;
+}
+button#login {
+    background: #333;
+    color: #fffefe;
+}

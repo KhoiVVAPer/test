@@ -1,0 +1,69 @@
+:host{
+    padding: 15px 10px;
+    min-width: 30%;
+}
+
+ul.top-teams{    
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-flow: column wrap;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 30px 0 rgba(0,0,0,0.5),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+}
+li.team {
+    height: 12.3%;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.24);
+}
+li.team:last-child{
+    border-bottom: none;
+}
+.team-logo {
+    width: 15%;
+    display: block;
+    float: left;
+    height: 100%;
+    margin-left: 10px;
+}
+.team img {    
+    float: right;
+    margin-top: 26%;
+    height: 60%;
+    width: 3em;
+}
+.info, .distance {
+    display: inline-block;
+    margin-top: 5%;
+}
+.info {
+    width: 56%;
+    margin-left: 3%;
+}
+.info h2 {
+    font-size: 16px;
+    font-family: Roboto;
+}
+.online,.offline{
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.online{
+    background: green;
+
+}
+.offline{
+    background: gray;
+
+}
+.distance {
+    margin-left: 5%;
+}
+.distance span {
+    font-size: 32px;
+    color: #333333bd;
+}
+
